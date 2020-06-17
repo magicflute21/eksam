@@ -1,0 +1,67 @@
+#navigation {
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            height: 80px;
+            width: auto;
+
+            @include small {
+                height: 60px;
+            }
+        }
+
+        .nav-item {
+            text-align: right;
+            text-transform: uppercase;
+        }
+
+        .item {
+            font-family: $font;
+        }
+
+        .active {
+            color: $color3;
+        }
+
+        .navbar-nav {
+            .nav-link {
+                color: $color1;
+
+                @include small {
+                    font-size: 1.2rem !important;
+                }
+            }
+            .active {
+                color: $color3;
+            }
+            .lang {
+                font-weight: 700;
+                font-family: $font-gotham-medium;
+            }
+
+            .dropdown-item {
+                color: $color1;
+                text-align: right;
+                border: none;
+            }
+        }
+
+
+    .navbar-toggler {
+        border-color: rgba(0,0,0,0);
+
+        &-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(186,188,156, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+    }
+
+   .nav-link {
+       color: $color3;
+       font-size: 1.4rem !important;
+   }
+}
+}

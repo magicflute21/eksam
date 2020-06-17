@@ -1,0 +1,59 @@
+// Body
+$body-bg: #f8fafc;
+
+/// Breakpoints map
+$small: 700px !default;
+$smaller-medium: 920px !default;
+$medium: 1200px !default;
+$larger-medium: 1440px !default;
+
+
+// colors
+
+$color1: #BABC9C;
+$color2: #19124C;
+$color3: #FF5003;
+$color4: #563BF4;
+$color5: #4065FF;
+
+$btn1-fr: #563BF4;
+$btn1-bo: #4065FF;
+$btn1-ba: #19124C;
+
+$btn2-fr: #669815;
+$btn2-bo: #93D80F;
+$btn2-ba: #546D10;
+
+$btn3-fr: #FF5003;
+$btn3-bo: #FFB594;
+$btn3-ba: #703500;
+
+$btn4-fr: #976EAF;
+$btn4-bo: #EAAFF9;
+$btn4-ba: #34194C;
+
+$white: #ffffff;
+$grey: rgba(91, 90, 90, .5);
+$light-grey: #E6E6E6;
+
+
+$max-width: 1920px !default;
+$max-width-smaller: 130rem !default;
+
+
+// Fonts
+
+$font-avenir-roman: 'Avenir-Roman', sans-serif;
+$font: 'Avenir-Book', sans-serif;
+$font-avenir-black: 'Avenir-Black', sans-serif;
+
+$font-gotham-light: 'Gotham-Light', sans-serif;
+$font-gotham-medium: 'Gotham-Medium', sans-serif;
+$font-gotham-bold: 'Gotham-Bold', sans-serif;
+
+$font-minecraft: 'Minecrafter', sans-serif;
+
+// shadow
+
+$shadow: 2px 4px 5px $grey;
+

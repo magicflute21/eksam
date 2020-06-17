@@ -1,0 +1,44 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// abstracts
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+// base
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/fonts';
+
+
+// components
+
+@import 'components/btn';
+@import 'components/banner';
+
+// layout
+
+@import 'layout/hero';
+@import 'layout/newnav';
+@import 'layout/gallery2';
+@import 'layout/testimonials';
+@import 'layout/feedback';
+@import 'layout/footer';
+@import 'layout/details';
+@import 'layout/login';
+
+
+
+
+
+
+
+
+
+
+

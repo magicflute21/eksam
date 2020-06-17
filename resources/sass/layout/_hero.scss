@@ -1,0 +1,52 @@
+.hero {
+    background-image: url('/images/minecraft_city.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 570px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        margin-left: -10rem;
+
+        h1, h2 {
+            font-family: $font-minecraft;
+            opacity: .9;
+            text-shadow: -11px 5px 2px #000;
+            text-align: center;
+        }
+
+        h1 {
+            color: $white;
+            margin-top: -1.8rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: $color3;
+        }
+
+        div {
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+    .theguy {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+
+        img {
+            height: 250px;
+            width: auto;
+        }
+    }
+
+}
+

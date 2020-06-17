@@ -1,0 +1,49 @@
+.button {
+    border-radius: 0px;
+    color: $white;
+    font-family: $font-minecraft;
+    letter-spacing: 1px;
+    padding: .2rem 1.8rem;
+    text-align: center;
+
+    &:hover {
+        color: $white;
+    }
+}
+
+.btn1 {
+    background-color: $btn1-fr;
+    border: 2px solid $btn1-bo;
+    box-shadow: -6px 6px $btn1-ba, -5px 5px $btn1-ba, -4px 4px $btn1-ba,-3px 3px $btn1-ba,-2px 2px $btn1-ba,-1px 1px $btn1-ba;
+}
+
+.btn2 {
+    background-color: $btn2-fr;
+    border: 2px solid $btn2-bo;
+    box-shadow: -6px 6px $btn2-ba, -5px 5px $btn2-ba, -4px 4px $btn2-ba,-3px 3px $btn2-ba,-2px 2px $btn2-ba,-1px 1px $btn2-ba;
+}
+
+.btn3 {
+    background-color: $btn3-fr;
+    border: 2px solid $btn3-bo;
+    box-shadow: -6px 6px $btn3-ba, -5px 5px $btn3-ba, -4px 4px $btn3-ba,-3px 3px $btn3-ba,-2px 2px $btn3-ba,-1px 1px $btn3-ba;
+}
+
+.btn4 {
+    background-color: $btn4-fr;
+    border: 2px solid $btn4-bo;
+    box-shadow: -6px 6px $btn4-ba, -5px 5px $btn4-ba, -4px 4px $btn4-ba,-3px 3px $btn4-ba,-2px 2px $btn4-ba,-1px 1px $btn4-ba;
+}
+
+.btn-small {
+    font-size: 1.2rem;
+}
+
+.btn-large {
+    padding: .7rem 8rem !important;
+
+    @include small {
+        padding: .4rem 4rem !important;
+
+    }
+}
